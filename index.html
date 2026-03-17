@@ -19,11 +19,14 @@
   .faq-item { margin-bottom: 24px; }
   .faq-item h3 { font-size: 16px; margin-bottom: 8px; }
   .faq-item p { font-size: 14px; color: #555; line-height: 1.6; }
+  .tokusho-table { width: 100%; border-collapse: collapse; margin-top: 16px; }
+  .tokusho-table th { background: #217346; color: white; padding: 12px; text-align: left; font-size: 14px; width: 30%; }
+  .tokusho-table td { padding: 12px; border-bottom: 1px solid #ddd; font-size: 14px; color: #555; }
   .contact { background: #f0f7f4; padding: 40px 20px; text-align: center; }
   .contact h2 { font-size: 24px; color: #217346; margin-bottom: 12px; }
   .contact p { font-size: 14px; color: #555; }
   footer { background: #217346; color: white; text-align: center; padding: 20px; font-size: 12px; }
-  nav { background: #1a5c38; padding: 12px 20px; display: flex; gap: 24px; justify-content: center; }
+  nav { background: #1a5c38; padding: 12px 20px; display: flex; gap: 24px; justify-content: center; flex-wrap: wrap; }
   nav a { color: white; text-decoration: none; font-size: 14px; }
   nav a:hover { opacity: 0.8; }
 </style>
@@ -48,6 +51,7 @@
 <nav>
   <a href="#features">機能</a>
   <a href="#support">サポート</a>
+  <a href="#tokusho">特定商取引法に基づく表記</a>
   <a href="#privacy">プライバシーポリシー</a>
 </nav>
 
@@ -89,9 +93,55 @@
   </div>
 </div>
 
+<div class="section" id="tokusho">
+  <h2>特定商取引法に基づく表記</h2>
+  <table class="tokusho-table">
+    <tr>
+      <th>販売業者</th>
+      <td>野元 優大（BensSeints）</td>
+    </tr>
+    <tr>
+      <th>所在地</th>
+      <td>神奈川県川崎市中原区上平間1354</td>
+    </tr>
+    <tr>
+      <th>電話番号</th>
+      <td>090-3509-5135（受付時間：平日10:00〜18:00）</td>
+    </tr>
+    <tr>
+      <th>メールアドレス</th>
+      <td>otomon@bens-seints.com</td>
+    </tr>
+    <tr>
+      <th>販売価格</th>
+      <td>¥4,500／月（税別）</td>
+    </tr>
+    <tr>
+      <th>支払い方法</th>
+      <td>クレジットカード（Stripe決済）・銀行振込</td>
+    </tr>
+    <tr>
+      <th>支払い時期</th>
+      <td>毎月自動更新・月初に課金</td>
+    </tr>
+    <tr>
+      <th>サービス提供時期</th>
+      <td>決済完了後、ライセンスキーをメールにて送付します</td>
+    </tr>
+    <tr>
+      <th>返品・キャンセル</th>
+      <td>デジタルコンテンツの性質上、購入後の返金はお受けできません。ただし、サービスに重大な不具合がある場合はご相談ください。</td>
+    </tr>
+    <tr>
+      <th>動作環境</th>
+      <td>Excel 2013以降（Windows・Mac）、Microsoft 365</td>
+    </tr>
+  </table>
+</div>
+
 <div class="section" id="privacy">
   <h2>プライバシーポリシー</h2>
-  <p style="margin-bottom:16px; font-size:14px; color:#555;">最終更新日：2026年3月14日</p>
+  <p style="margin-bottom:16px; font-size:14px; color:#555;">最終更新日：2026年3月15日</p>
   <div class="faq-item">
     <h3>収集する情報</h3>
     <p>本サービスはライセンス認証に使用するメールアドレスおよびExcelファイル内のマスタデータを収集します。</p>
@@ -112,11 +162,12 @@
 
 <div class="contact">
   <h2>お問い合わせ</h2>
-  <p>営業時間内（平日10:00〜18:00）にご返答いたします。</p>
+  <p>otomon@bens-seints.com</p>
+  <p style="margin-top:8px;">営業時間内（平日10:00〜18:00）にご返答いたします。</p>
 </div>
 
 <footer>
-  <p>© 2026 DeliveryCalc. All rights reserved.</p>
+  <p>© 2026 DeliveryCalc / BensSeints. All rights reserved.</p>
 </footer>
 
 </body>
